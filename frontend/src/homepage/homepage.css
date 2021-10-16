@@ -1,0 +1,29 @@
+#projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: min-content;
+    margin-left: 1em;
+    width: 100%;
+}
+
+#homepageNavButtons {
+    display: flex;
+}
+
+#newProjButton {
+    margin-right: 1em;
+}
+
+#home-container {
+    display: flex;
+}
+
+#yelp-display-container {
+    width: 400px;
+    background-color: var(--white);
+    height: min-content;
+}
+
+#noProjMsg {
+    margin-top: 1em;
+}

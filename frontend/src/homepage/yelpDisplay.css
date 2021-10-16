@@ -1,0 +1,18 @@
+#yelp-container {
+    /* padding: 1em; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    background-color: var(--white);
+    height: 100%;
+    border-left: 1px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
+}
+
+#yelp-header {
+    padding: 1em;
+}
+
+#yelp-stores {
+    /* overflow: scroll;
+    height: inherit; */
+}

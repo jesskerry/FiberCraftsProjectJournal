@@ -1,0 +1,42 @@
+#login-header {
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    background-color: var(--red);
+    color: var(--white);
+    font-family: Brush Script MT;
+}
+
+#login-form-container {
+    background-color: var(--white);
+    border-radius: 15px;
+    border: 2px solid var(--red);
+    filter: drop-shadow(1px 1px 1px var(--grey));
+    height: min-content;
+    width: min-content;
+    margin: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#login-form-container > form {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+hr {
+    margin: 1.5em;
+}
+
+#login-header {
+    justify-content: center;
+}
+
+#loginPage {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#appName{
+    font-size: 28pt;
+  }

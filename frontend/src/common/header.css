@@ -1,0 +1,27 @@
+.navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: var(--red);
+    height: 4em;
+    color: var(--white);
+}
+
+.navButtons {
+    background-color: var(--pink);
+    border-color: var(--darkpink);
+  }
+
+  #lButton {
+      margin-right: 0.5em;
+  }
+
+
+#appName{
+    font-family: Brush Script MT;
+    margin: 0;
+    font-size: 26pt;
+  }

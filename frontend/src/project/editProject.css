@@ -1,0 +1,9 @@
+#currentimg {
+    height: 25%;
+    width: 25%;
+    object-fit: cover;
+}
+/* 
+#editProjButton{
+    margin-top: 0.75em;
+} */

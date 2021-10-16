@@ -1,0 +1,81 @@
+:root {
+  --background: #FCF5F2;
+  --white: #fcfcfc;
+  --blue: #b1ede8;
+  --darkblue: #9DD4D2;
+  --navy: #2b3a67;
+  --red: #840032;
+  --grey: #666362;
+  --pink: #f49097;
+  --darkpink: #E3868D;
+}
+
+/* general styles */
+body {
+    background-color: var(--background);
+    font-family: Trebuchet MS;
+    margin: 0px;
+}
+
+button, input[type=submit], input[type=button] {
+  border-radius: 5px;
+  background-color: var(--blue);
+  border-color: var(--darkblue);
+  cursor: pointer;
+  font-family: Trebuchet MS;
+}
+
+.page {
+  padding: 4em;
+  padding-top: 1.5em;
+}
+
+.Toastify__toast {
+  background: var(--white) !important;
+  color: var(--grey) !important;
+}
+
+.Toastify__progress-bar {
+  background: linear-gradient(to left, var(--red), var(--pink)) !important;
+}
+
+.requiredFieldNote {
+  font-size: 10pt;
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+}
+
+.formHeader {
+  margin-bottom: 0em;
+}
+
+.optional {
+  font-size: 10pt;
+  color: var(--grey);
+}
+
+input, textarea {
+  margin-bottom: 0.75em;
+}
+
+input[type="radio"], input[type="checkbox"], .otherText {
+  margin-bottom: 0em;
+}
+
+.formGroupContainer {
+  margin-bottom: 0.75em;
+}
+
+.formCancelBtn {
+  margin-left: 0.5em;
+}
+
+
+#removeImgBtn {
+  background-color: #efefef;
+    border-color: #767676;
+    border-width: 1px;
+    border-radius: 2pt;
+    filter: none;
+    font: 400 13px Arial;
+}

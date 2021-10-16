@@ -1,0 +1,18 @@
+.update {
+    color: var(--grey);
+    white-space: pre-wrap;
+    margin-top: 0em;
+    margin-bottom: 0.75em;
+}
+
+.date {
+    margin: 0em;
+}
+
+#statusContainer {
+    margin-bottom: 1em;
+}
+
+#updatesHeader {
+    margin-bottom: 0.75em;
+}
